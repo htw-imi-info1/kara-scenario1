@@ -39,8 +39,7 @@ public class KaraWorld extends World
      */
     private void prepare() 
     {
-
-        Kara kara = new Kara();
-        addObject(kara, 1, 5);
+        MyKara mykara = new MyKara();
+        addObject(mykara, 2, 2);
     }
 }
